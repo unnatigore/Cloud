@@ -1,0 +1,12 @@
+package com.capgemini.WebsiteService.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class WebsiteController {
+	@Autowired
+	private RestTemplate restTemplate;
+	@RequestMapping("/index")
+	public Model
+
+}

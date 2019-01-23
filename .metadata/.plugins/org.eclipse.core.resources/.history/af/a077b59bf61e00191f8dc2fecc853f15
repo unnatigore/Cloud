@@ -1,0 +1,17 @@
+package com.capgemini.WebsiteService;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+@EnableDiscovery
+@SpringBootApplication
+public class WebsiteServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(WebsiteServiceApplication.class, args);
+	}
+
+	@Bean
+	@LoadBalanced
+	public RestTemplate restTemplate
+}
+

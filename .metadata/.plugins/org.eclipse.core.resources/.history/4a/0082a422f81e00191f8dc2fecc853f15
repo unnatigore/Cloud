@@ -1,0 +1,13 @@
+package com.capgemini.HelloWorldService.controller;
+
+import javax.annotation.Generated;
+
+@RestController("/helloWorlds")
+public class HelloController {
+
+	@GetMapping
+	public String hello() {
+		return "HELLO WORLD !!!!";
+		
+	}
+}
